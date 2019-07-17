@@ -1,0 +1,101 @@
+(Requisito do Sistema):
+Etapa 1: Verificação da idade do cliente 
+Etapa 2: Taxa de salário mensal
+Etapa 3: Valor do empréstimo desejado
+
+
+
+    Se a idade do cliente for entre 25 a 60 anos:
+        Seguir para a etapa 2
+
+            Se não: 
+             Se nenhumas das respostas dadas não estiver dentro do requisito do sistema:
+            Empréstimo não concedido.
+
+    Caso a taxa de Salário mensal for a partir de 2000 reais:
+        Seguir para a etapa 3
+
+            Se não: 
+             Se nenhumas das respostas dadas não estiver dentro do requisito do sistema:
+            Empréstimo não concedido.
+
+    Caso o valor do empréstimo esteja dentro do valor desejado (10 vezes maior o valor do salário):
+        Empréstimo concluído.
+
+            Se não: 
+             Se nenhumas das respostas dadas não estiver dentro do requisito do sistema:
+            Empréstimo não concedido.
+        
+
+   Fim do procedimento.!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RECEBER O SALÁRIO
+RECEBER A IDADE
+RECEBER O VALOR DE EMPRESTIMO
+
+
+SE SALÁRIO < 2000 
+    EMPRESTIMO RECUSADO: O VALOR DO SALÁRIO É MENOR DO QUE O MINIMO DE 2000,00
+    PARAR PROCEDIMENTO
+SE NÃO
+    SE IDADE < 25 E > 60
+        EMPRESTIMO RECUSADO: IDADE NÃO PERMITIDA 
+        PARAR PROCEDIMENTO
+    
+    SE NAO
+        SE VALOR DO EMPRESTIMO  < 10* SALARIO
+        EMPRESTIMO RECUSADO: VALOR DO EMPRESTIMO NÃO PERMITIDO
+        PARAR PROCEDIMENTO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INICIO ALGORITMO
+
+RECEBER NOTA 1
+RECEBER NOTA 2
+RECEBER NOTA 3
+RECEBER NOTA 4
+
+SOMA = NOTA 1 + NOTA 2 + NOTA 3 + NOTA 4
+MÉDIA = SOMA / 4
+SE MÉDIA <= 10
+    SE MÉDIA <= 4
+        mensagem: ALUNO REPROVADO
+
+    SE MÉDIA > 4.1 E <= 6.9
+        mensagem: ALUNO EM RECUPERAÇÃO
+
+    SE MÉDIA > 7
+        mensagem: ALUNO APROVADO
+SE NAO
+    ERRO
+FIM ALGORITMO
